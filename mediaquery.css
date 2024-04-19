@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+    #nav-bar {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
+@media screen and (max-width:780px){
+    .hero p{
+        font-size: 3rem;
+    }
+
+    #about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .name-about,
+.resume-title{
+    font-size: 5rem;
+}
+.name-about{
+    top:-80px;
+    left:20px;
+}
+    #about>img{
+        width:80vw;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .info-container{
+        width:70vw;
+    }
+    .institute-info{
+        flex-direction: column;
+    }
+    .certifications{
+        align-items: center;
+    }
+    .certificate:nth-child(even){
+        flex-direction: column;
+    }
+    .certificate:nth-child(odd){
+        flex-direction: column;
+    }
+    .certificate-info{
+        width:70vw;
+    }
+    .certificate img{
+        width:80vw;
+    }
+    .skill{
+        width:80vw;
+    }
+    #contact{
+        padding:2rem;
+    }
+}
+@media screen and (max-width:380px){
+    .hero{
+        height:80vh;
+    }
+    .hero p{
+        font-size: 2.5rem;
+    }
+    #about img,
+.info-container, .education, .learnings .certifications{
+    margin-bottom: 7rem;
+}
+    .name-about,
+.resume-title{
+    font-size: 4.5rem;
+}
+
+.name-about{
+    top:-80px;
+    left:10px;
+}
+    #about>img{
+        width:80vw;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .info-container{
+        width:90vw;
+    }
+    
+    .certificate-info{
+        width:85vw;
+    }
+    .certificate img{
+        width:85vw;
+    }
+    .skill{
+        width:85vw;
+    }
+}

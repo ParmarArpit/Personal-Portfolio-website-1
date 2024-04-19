@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="\assests\portfolio vs 1.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/41d9227a4b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div class="logo"><span>A</span>rpit <span>P</span>armar</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><span>A</span>rpit <span>P</span>armar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+
+    </div>
+    <section id="about">
+        <img src="assests/arpitparmarproimage.jpeg" alt="myphoto">
+        <div class="info-container">
+            <p class="name-about">About</p>
+            <p class="myname">Hi! I'M </p>
+            <p class="myname">Arpit parmar</p>
+            <p class="quote">Crafting digital experiences, one line of code at a time</p>
+            <div><a href="#" class="link">Checkout my resume</a></div>
+            <div class="hire"><a href="" class="link">Work with Me</a>
+                <!-- <img src="assests/hire.png" alt=""> -->
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="resume-title">Resume</div>
+        <div class="education">
+            <div class="title">Education</div>
+            <div class="edu-container skill">
+                <div class="institute-info">
+                    <p class="institute-name">Amity University |  Noida, UP<span class="italics" style="display: block;"> B.Tech in Computer
+                            Science and Engineering</span>
+                    </p><span class="passout-info italics">Sep 2021 - Present</span>
+                </div>
+                <ul>
+                    <li class="description">CGPA: 7.99/10 (Till 5th semester)</li>
+                    <li class="description">Relevant Coursework: Object-oriented Programming, Data Structures and
+                        Algorithms,
+                        Operating
+                        Systems, Database Management Systems, Cloud Computing Practitioner
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="edu-container skill">
+                <div class="institute-info">
+                    <p class="institute-name">Vishwa Bharati Public School | Greater Noida, UP 
+                    </p><span class="passout-info italics"> Apr 2014 - Jun 2020</span>
+                </div>
+                <ul>
+                    <li class="description">Class 12th CBSE: 81% (2020)</li>
+                    <li class="description">Class 10th CBSE: 88% (2018)
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="learnings">
+            <div class="title">Skills</div>
+            <div class="languages skill">
+                <!-- <img src="/assests/programing.png" alt="" width:20px> -->
+                <p> Programming Languages: C/C++, Java(familiar), Python(familiar)</p>
+            </div>
+            <div class="web-tech skill">
+                <!-- <img src="/assests/app-development.png" alt=""> -->
+                <p>Web Development Technologies: HTML, CSS, JavaScript</p>
+            </div>
+            <div class="cloud-tech skill">
+                <!-- <img src="/assests/cloudicon.png" alt=""> -->
+                <p>Cloud Technologies: AWS, EC2, S3, EBS, SNS, ELB, LAMBDA</p>
+            </div>
+
+        </div>
+        <!-- <div class="projects">
+            <div class="title"></div>
+        </div> -->
+        <div class="certifications">
+            <div class="title">Certifications</div>
+
+            <div class="certificate"><img src="assests/ccp-certificate .png" alt="">
+                <div class="certificate-info">
+                    <h2>Cloud Computing Practitioner Essentials | <span class="italics">Coursera</span>
+                    </h2>
+                    <p>Worked on AWS platform, launched various AWS services like EC2, S3, EBS, SNS, ELB, LAMBDA
+                        Learned about cloud computing principles
+                    </p>
+                    <a href="" class="link">Take a Look</a>
+                </div>
+
+            </div>
+            <div class="certificate">
+                <img src="assests/freecodecamp-responsive-webdesign-certificate.png" alt="">
+                <div class="certificate-info">
+                    <h2>Responsive Web Design | <span class="italics">FreeCodeCamp</span></h2>
+                    <p>Built small front-end projects, learned about media queries, layout models, and box models</p>
+                    <a href="" class="link">Take a Look</a>
+                </div>
+
+            </div>
+            <div class="certificate"><img src="assests/python-for-datascience-certificate.png" alt="">
+                <div class="certificate-info">
+                    <h2>Python for Data Science | <span class="italics">NPTEL</span></h2>
+                    <p>Learned about linear regression, logistic regression, classification problems, predicƟve
+                        modelling,
+                        and data visualization</p>
+                    <a href="" class="link">Take a Look</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="projects">
+            <div class="title">Projects</div>
+            <p>Comming Soon</p>
+        </div>
+
+    </section>
+    <div class="line"></div>
+    <section id="contact">
+        <div class="social-container">
+            <a href="#" class="socials"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/arpit-parmar777/" class="socials" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="socials" href="mailto:dev.arpitparmar626@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <p class="contactme">Contact Me</p>
+        <p>© 2024 Arpit Parmar. All rights reserved. Icons provided by <a href="https://fontawesome.io/"
+                target="_blank">Font Awesome</a> .
+        </p>
+        <p style="margin-top: 10px;">This site is under development !!!</p>
+        <p style="margin-top: 10px;"></p>
+    </section>
+</body>
+
+</html>
