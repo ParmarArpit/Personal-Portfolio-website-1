@@ -24,7 +24,7 @@ setInterval(() => {
         count = (count + 1) % textContents.length;
 
     }, 600);
-}, 5000);
+}, 2500);
 const hireimg = document.querySelector(".hire img")
 const hire = document.querySelector(".hire a")
 hire.addEventListener("mouseover",()=>{
